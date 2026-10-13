@@ -44,3 +44,8 @@ allow-ghsas:
   - GHSA-rgw5-rvv9-x895
   - GHSA-6j4f-fj2g-mc7p
   - GHSA-qhr7-859c-m2p7
+  # seroval 1.5.4, pinned to ~1.5.0 by solid-js 1.9.11 (dev-only, used by @sentry/solid and @sentry/solidstart).
+  # Only fixed in 1.6.3, which is outside that range.
+  # Can be removed once solid-js depends on seroval >= 1.6.3.
+  - GHSA-p6vx-979v-rg4c
+  - GHSA-jp82-f5mq-hwhp
